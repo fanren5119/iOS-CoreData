@@ -40,7 +40,7 @@
         ⑥ NSFetchedPropertyDescription
         Fetched Property根据查询谓词返回执行Entity的符合条件的数据对象。
         举例如下：
-![举例](exapmle.png)
+![举例](example.png)
 
         我们有一个.xcdatamodeld的模型文件，应用程序根据他生成一个NSManagedObjectModel对象，
     这个模型有两个Entity，每个Entity又可包含Attribute、Relationship、Fetched Property三种
