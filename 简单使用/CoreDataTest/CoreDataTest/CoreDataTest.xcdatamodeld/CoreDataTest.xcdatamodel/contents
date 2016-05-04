@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="Scores" representedClassName="Scores" syncable="YES">
+        <attribute name="chinese" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="english" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="math" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="Student" representedClassName="Student" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="scores" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Scores" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Student" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Scores" positionX="-54" positionY="18" width="128" height="90"/>
+    </elements>
+</model>
