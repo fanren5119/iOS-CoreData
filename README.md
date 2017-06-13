@@ -1,5 +1,5 @@
 # iOS-CoreData
-##1.CoreData的原理
+## 1.CoreData的原理
         CoreData是iOS5之后才出现的框架，他提供了对象-关系映射（ORM）的功能，即能
     够将oc对象转换成数据，保存在SQLite数据库文件中，也能够将保存在数据库中的数据
     还原成oc对象。再次操作期间，我们不需要编写任何SQL语句。
@@ -11,7 +11,7 @@
         右边是对象模型，即可以看到有2个oc对象；
         利用CoreData框架，我们可以轻松地将数据库里面的2条记录转换成2个oc对象，也可
     以轻松地将2个对象保存到数据库中，变成2条记录，而且不用写SQL语句。
-##2.CoreData的构成
+## 2.CoreData的构成
     ① NSManagedObjectContext：被管理的数据上下文
         用来实际操作数据，例如插入数据，查询数据，删除数据等；
     ② NSManagedObjectModel：被管理的数据模型
